@@ -2,6 +2,7 @@
 import React from "react";
 
 const PostHeader = props => {
+  console.log(props)
   // Make sure the parent of PostHeader is passing the right props!
   return (
     <div className="post-header">
